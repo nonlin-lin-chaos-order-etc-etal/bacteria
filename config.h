@@ -16,8 +16,14 @@
 /* Define to 1 if you have the <inttypes.h> header file. */
 #define HAVE_INTTYPES_H 1
 
+/* Define to 1 if you have the `curl' library (-lcurl). */
+#define HAVE_LIBCURL 1
+
 /* Define to 1 if you have the `iniparser' library (-liniparser). */
 #define HAVE_LIBINIPARSER 1
+
+/* Define to 1 if you have the `jansson' library (-ljansson). */
+#define HAVE_LIBJANSSON 1
 
 /* Define to 1 if you have the `pthread' library (-lpthread). */
 #define HAVE_LIBPTHREAD 1

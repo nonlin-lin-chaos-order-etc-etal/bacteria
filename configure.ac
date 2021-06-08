@@ -12,8 +12,11 @@ AC_PROG_CC
 
 # Checks for libraries.
 # FIXME: Replace `main' with a function in `-lpthread':
+#-ljansson
 AC_CHECK_LIB([pthread], [main])
 AC_CHECK_LIB([iniparser], [main])
+AC_CHECK_LIB([jansson], [main])
+AC_CHECK_LIB([curl], [main])
 CFLAGS="$CFLAGS -g"
 
 # Checks for header files.
